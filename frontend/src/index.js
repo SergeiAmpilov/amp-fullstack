@@ -1,3 +1,5 @@
+import '../style/index.css';
+
 const porfolioItemList = document.querySelectorAll('.portfolio__item');
 
 const handleHover = (evt) => {
