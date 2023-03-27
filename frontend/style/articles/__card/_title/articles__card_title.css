@@ -1,0 +1,8 @@
+.articles__card_title,
+.articles__card_title:visited {
+  font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #c1c9d1;
+    text-decoration: none;
+}

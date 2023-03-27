@@ -91,4 +91,10 @@
 @import url(./page-404/__title/page-404__title.css);
 @import url(./page-404/__text/page-404__text.css);
 @import url(./articles/__title/articles__title.css);
+@import url(./articles/__card/_title/articles__card_title.css);
+@import url(./articles/__card/_img/articles__card_img.css);
+@import url(./articles/__card/_excerption/articles__card_excerption.css);
+@import url(./articles/__card/_labels/articles__card_labels.css);
+@import url(./articles/__card/_group/articles__card_group.css);
+@import url(./articles/__card/_heading/articles__card_heading.css);
 

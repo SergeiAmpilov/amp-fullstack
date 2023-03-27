@@ -13,7 +13,6 @@
     <div class="header__content">
       <div class="header__nav">
         <a href="index.html" class="header__nav-link">На главную</a>
-
         <nav class="header__nav">
           <a href="articles.html" class="header__nav-link">Статьи</a>
         </nav>
@@ -26,10 +25,21 @@
     </div>
     <div class="articles container">
       <div class="articles__card">
-        <h2 class="articles__card_title">
-          <a href="detail.html">Название статьи</a>          
+        <h2>
+          <a class="articles__card_title" href="detail.html">Название статьи</a>          
         </h2>
-        <img class="articles__card_img" src="https://picsum.photos/seed/picsum/1280/1024" alt="">
+        <div class="articles__card_group">
+          <img class="articles__card_img" src="https://picsum.photos/seed/picsum/1280/1024" alt="">
+          <div class="articles__card_labels">
+            <span class="articles__card_heading">Рубрика</span>
+            <ul class="articles__card_taglist">
+              <li class="articles__card_tag">JS</li>
+              <li class="articles__card_tag">TS</li>
+              <li class="articles__card_tag">Node.js</li>
+              <li class="articles__card_tag">MongoDB</li>
+            </ul>  
+          </div>
+        </div>
         <p class="articles__card_excerption">
           Анонс статьи в виде цитаты на 200 символов. Lorem ipsum dolor sit amet, 
           consectetur adipisicing elit. Vitae est vel praesentium laboriosam a, 
@@ -37,14 +47,9 @@
           Nesciunt, impedit accusantium. Voluptatibus, nobis?
         </p>
         <a class="articles__card_link" href="detail.html">Читать статью подробнее</a>
-        <p class="articles__card_heading">Рубрика - Чат бот</p>
-        Теги:
-        <ul class="articles__card_taglist">
-          <li class="articles__card_tag">JS</li>
-          <li class="articles__card_tag">TS</li>
-          <li class="articles__card_tag">Node.js</li>
-          <li class="articles__card_tag">MongoDB</li>
-        </ul>
+        
+
+        
         <button>8 просмотров</button>
         <button>5 лайков</button>
         <button>3 комментария</button>  

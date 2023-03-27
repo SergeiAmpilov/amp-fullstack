@@ -1,0 +1,14 @@
+.articles__card_labels {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: rgba(079, 156, 249, .7);
+  margin: 0;
+
+  border-radius: 20px 0;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
