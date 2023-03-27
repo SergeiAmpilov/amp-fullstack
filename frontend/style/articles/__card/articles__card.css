@@ -1,0 +1,7 @@
+.articles__card {
+  margin-top: 60px;
+}
+
+.articles__card:last-child {
+  margin-bottom: 60px;
+}
