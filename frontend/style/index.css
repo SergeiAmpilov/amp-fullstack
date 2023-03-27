@@ -8,8 +8,6 @@
 @import url(./main-page/__img/main-page__img.css);
 @import url(./main-page/__list/main-page__list.css);
 @import url(./main-page/__list/_item/main-page__list_item.css);
-
-
 @import url(./vendor/font-awesome/css/font-awesome.min.css);
 @import url(./page/page.css);
 @import url(./container/container.css);
@@ -92,4 +90,5 @@
 @import url(./page-404/__img/page-404__img.css);
 @import url(./page-404/__title/page-404__title.css);
 @import url(./page-404/__text/page-404__text.css);
+@import url(./articles/__title/articles__title.css);
 
