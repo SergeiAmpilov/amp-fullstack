@@ -1,0 +1,9 @@
+.promo__banner {
+    max-width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    .promo__banner {
+        max-width: 60%;
+    }
+}

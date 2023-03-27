@@ -1,0 +1,7 @@
+.contacts__mail-link, 
+.contacts__mail-link:visited {
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}

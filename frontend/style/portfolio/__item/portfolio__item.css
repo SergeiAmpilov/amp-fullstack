@@ -1,0 +1,10 @@
+.portfolio__item {
+  background-color: gray;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio__item {
+    margin-top: 20px;
+  }
+}

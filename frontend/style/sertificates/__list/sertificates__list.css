@@ -1,0 +1,9 @@
+.sertificates__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

@@ -1,0 +1,11 @@
+.promo__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .promo__content {
+        flex-flow: column-reverse;
+    }
+}

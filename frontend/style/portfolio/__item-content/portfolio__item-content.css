@@ -1,0 +1,27 @@
+.portfolio__item-content {
+  height: calc(100% - 40px);
+  border-radius: 20px;
+  visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px 80px;
+  text-align: center;
+}
+
+.portfolio__item_size-60 .portfolio__item-content {
+  color: white;
+  background-color: rgba(079, 156, 249, .9);
+}
+
+.portfolio__item_size-30 .portfolio__item-content {
+  color: #043873;
+  background-color: rgba(255, 228, 146, .9);
+}
+
+@media screen and (max-width: 1152px) {
+  .portfolio__item-content {
+  padding: 20px;
+
+  }
+}

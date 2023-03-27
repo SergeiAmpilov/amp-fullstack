@@ -1,0 +1,13 @@
+.contacts__icon {
+  width: 64px;
+  height: 64px;
+  transition: .5s;
+}
+
+
+.contacts__icon:hover {
+  opacity: .9;
+}
+
+
+

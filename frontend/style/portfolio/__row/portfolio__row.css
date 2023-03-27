@@ -1,0 +1,11 @@
+.portfolio__row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio__row {
+    display: block;
+  }
+}

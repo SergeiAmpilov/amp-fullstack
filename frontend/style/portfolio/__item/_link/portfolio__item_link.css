@@ -1,0 +1,8 @@
+.portfolio__item_link, .portfolio__item_link:visited {
+  color: white;
+}
+
+.portfolio__item_size-30 .portfolio__item_link,
+.portfolio__item_size-30 .portfolio__item_link:visited {
+  color: #043873;  
+}

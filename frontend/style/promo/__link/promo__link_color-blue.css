@@ -1,0 +1,8 @@
+.promo__link_color-blue {
+  color: #fff;
+  background-color: #4F9CF9;
+}
+
+.promo__link_color-blue:hover {
+  box-shadow: 0 0 8px #4F9CF9;
+}

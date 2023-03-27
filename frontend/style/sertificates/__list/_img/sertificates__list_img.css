@@ -1,0 +1,9 @@
+.sertificates__list_img {
+  width: 250px;
+}
+
+@media screen and (max-width: 768px) {
+  .sertificates__list_img {
+    width: 200px;
+  }
+}

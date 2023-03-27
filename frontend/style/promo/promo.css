@@ -1,0 +1,19 @@
+.promo {
+    /* margin: 20vh 0 0; */
+    background-size: cover;
+    background-position: center;
+    /* background-image: url("../../images/promo-banner-element.png"); */
+
+    /* min-height: calc(100vh - 46px - 20vh); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1152px) {
+    .promo {
+        /* margin: 10px 0 0; */
+        /* min-height: calc(100vh - 46px - 10px); */
+    }
+}

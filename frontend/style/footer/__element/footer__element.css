@@ -1,0 +1,5 @@
+@media screen and (max-width: 600px) {
+  .footer__element:nth-child(2) {
+    display: none;
+  }
+}

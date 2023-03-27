@@ -1,0 +1,9 @@
+.promo__subtext_project {
+  font-weight: 500;
+  /* color: #4F9CF9; */
+  transition: .5s;
+}
+
+.promo__subtext_project:hover {
+  background-color: rgba(255, 228, 146, .1);
+}

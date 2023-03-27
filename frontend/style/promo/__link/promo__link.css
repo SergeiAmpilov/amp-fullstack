@@ -1,0 +1,30 @@
+.promo__link,
+.promo__link:visited {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  border-radius: 8px;
+  padding: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.promo__link:hover {
+  cursor: pointer;
+  opacity: .9;
+  transition: .5s;
+}
+
+
+.promo__link:first-child {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 1152px) {
+  .promo__link,
+  .promo__link:visited {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

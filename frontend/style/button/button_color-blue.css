@@ -1,0 +1,8 @@
+.button_color-blue {
+  color: #fff;
+  background-color: #4F9CF9;
+}
+
+.button_color-blue:hover {
+  box-shadow: 0 0 8px #4F9CF9;
+}

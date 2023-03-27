@@ -1,0 +1,32 @@
+.contacts__image {
+  width: 37%;
+  height: 37%;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 1152px) {
+  .contacts__image {
+    width: calc(50% - 8px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contacts__image {
+    width: 50%;
+    margin-left: 25%
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contacts__image {
+    margin-left: 15%;
+    width: 70%; 
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contacts__image {
+    margin-left: 0;
+    width: 100%; 
+  }
+}
