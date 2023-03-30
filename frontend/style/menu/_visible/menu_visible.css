@@ -1,3 +1,8 @@
 .menu_visible {
+  padding: 5px;
   display: block;
+  position: absolute;
+  top: 30px;
+  right: 16px;
+  background-color: rgba(4, 56, 115, .3);
 }
