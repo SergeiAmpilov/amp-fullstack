@@ -1,0 +1,12 @@
+.header__nav_panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .header__nav_panel {
+    display: none;
+  }
+
+}

@@ -1,0 +1,11 @@
+.header__nav_burger {
+  font-style: normal;
+  color: #4f9cf9;
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .header__nav_burger {
+    display: block;
+  }
+}
