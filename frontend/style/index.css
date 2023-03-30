@@ -63,6 +63,8 @@
 @import url(./contacts/__link-list/_item/contacts__link-list_item.css);
 @import url(./contacts/__mail-link/contacts__mail-link.css);
 @import url(./contacts/__icon/contacts__icon.css);
+@import url(./contacts/__link-list/_cw/contacts__link-list_cw-small.css);
+@import url(./contacts/__link-list/_cw/contacts__link-list_cw-micro.css);
 @import url(./technology/technology.css);
 @import url(./technology/__section/technology__section.css);
 @import url(./technology/__title/technology__title.css);

@@ -1,0 +1,9 @@
+.contacts__link-list_cw-micro {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .contacts__link-list_cw-micro {
+    display: block;
+  } 
+}

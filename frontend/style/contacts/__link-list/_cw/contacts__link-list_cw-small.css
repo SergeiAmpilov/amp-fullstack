@@ -1,0 +1,6 @@
+@media screen and (max-width: 600px) {
+  .contacts__link-list_cw-small {
+    display: none;
+  }
+}
+
