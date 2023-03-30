@@ -1,4 +1,5 @@
 import '../style/index.css';
+import { Anchor } from './modules/anchors';
 
 const porfolioItemList = document.querySelectorAll('.portfolio__item');
 
@@ -57,3 +58,9 @@ const handleClosePopup = (evt) => {
 
 document.querySelectorAll('.sertificates__list_img').forEach( el => el.addEventListener('click', handleOpenPopup) );
 document.querySelectorAll('.popup__container').forEach( el => el.addEventListener('click', handleClosePopup) );
+
+/* anchors */
+
+document.querySelectorAll('.link__anchor').forEach( (el) => {
+  new Anchor(el);
+})
