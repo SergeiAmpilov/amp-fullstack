@@ -1,0 +1,15 @@
+.button_scroll-top {
+  position: fixed;
+  right: 10px;
+  bottom: 30px;
+  padding: 9px 10px;
+  background-color: #ffe492;
+  color: #043873;
+  z-index: 997;
+  border-radius: 50%;
+}
+
+.button_scroll-top:hover {
+  box-shadow: 0 0 2px #ffe492;
+}
+

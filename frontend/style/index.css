@@ -88,6 +88,7 @@
 @import url(./button/button.css);
 @import url(./button/button_color-blue.css);
 @import url(./button/button_color-yellow.css);
+@import url(./button/button_scroll-top.css);
 @import url(./stop-scrolling/stop-scrolling.css);
 @import url(./popup/__container/popup__container.css);
 @import url(./popup/__content/popup__content.css);
