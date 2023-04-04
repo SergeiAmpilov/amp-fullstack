@@ -1,6 +1,7 @@
 import '../style/index.css';
 import { Anchor } from './modules/anchors';
 import { Burger } from './modules/burger';
+import { windowScrollHandler } from './modules/windowScrollHandler';
 
 const porfolioItemList = document.querySelectorAll('.portfolio__item');
 
@@ -65,3 +66,6 @@ document.querySelectorAll('.link__anchor').forEach((el) => { new Anchor(el) });
 
 /* burger menu */
 document.querySelectorAll('.nav__burger').forEach((el) => { new Burger(el) });
+
+/* scroll to top */
+window.addEventListener('scroll', windowScrollHandler);
