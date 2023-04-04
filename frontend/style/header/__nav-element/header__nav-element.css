@@ -7,3 +7,15 @@
   margin-top: 10px;
   margin-left: 0;
 }
+
+
+.header__nav-element:last-child {
+  margin-left: 100px;
+}
+
+
+.menu_visible .header__nav-element:last-child {
+  margin-left: 0;
+  border-top: 1px solid rgba(193, 201, 209, .3);
+  padding-top: 10px;
+}

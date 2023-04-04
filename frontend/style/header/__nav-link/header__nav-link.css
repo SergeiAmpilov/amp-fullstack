@@ -1,7 +1,12 @@
 .header__nav-link {
   color: #4F9CF9;
   text-decoration: none;
+  margin-left: 10px;
   transition: 1s;
+}
+
+.header__nav-link:first-child {
+  margin-left: 0;
 }
 
 .header__nav-link:hover {
