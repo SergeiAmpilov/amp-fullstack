@@ -5,6 +5,12 @@
   transition: 1s;
 }
 
+.menu_visible .header__nav-link,
+.menu_visible .header__nav-link:visited {
+  padding: 10px 0;
+  color: #fff;
+}
+
 .header__nav-link:first-child {
   margin-left: 0;
 }
