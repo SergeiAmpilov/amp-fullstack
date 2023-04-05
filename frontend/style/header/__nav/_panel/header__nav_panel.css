@@ -4,9 +4,7 @@
   align-items: center;
 }
 
-@media screen and (max-width: 600px) {
-  .header__nav_panel {
-    display: none;
-  }
 
+.menu_visible .header__nav_panel {
+  display: block;
 }
