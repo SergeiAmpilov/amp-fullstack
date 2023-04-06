@@ -22,6 +22,7 @@
 @import url(./header/__nav/_icons/header__nav_icons.css);
 @import url(./header/__nav-element/header__nav-element.css);
 @import url(./menu/_visible/menu_visible.css);
+@import url(./section/__full-height/section__full-height.css);
 @import url(./promo/promo.css);
 @import url(./promo/__button/promo__button.css);
 @import url(./promo/__title/promo__title.css);
