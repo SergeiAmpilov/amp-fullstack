@@ -5,6 +5,8 @@
 
 @media screen and (max-width: 768px) {
     .promo__banner {
-        max-width: 60%;
+       width: 200px;
+        border-radius: 50%;
+        margin-top: 40px;
     }
 }
