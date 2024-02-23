@@ -1,5 +1,6 @@
 .promo__banner {
-    max-width: 40%;
+    width: 300px;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 768px) {
